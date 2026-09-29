@@ -1,5 +1,5 @@
 resource "aws_security_group" "web_sg" {
-  name     = "terraform-web-sg-pallavi"
+  name     = "terraform-web-sg-pallavi-cicd"
   description = "Allow ssh and http traffic"
 
   ingress {
